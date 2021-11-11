@@ -1,0 +1,14 @@
+cd ../..   = cd to the home directory
+ssh-keygen = enter and enter again to by-pass the username option
+enter password = use your phone number
+enter the same password again to confirm = password will be used for pushing and pulling from your github
+cat copy public key link form that was generated uner the ss-keygen command - it starts with /c/user = this is to generate the public key
+copy the key genenrated
+back to yourhub, you can use any repo
+At the top right corner, click on the drop down arrow and select setting
+on the ledt side, choose SSH and GPG keys
+click on new SSH key
+enter a name and past the key
+save
+back to your command line
+type = eval "$(ssh-agent -s)"
